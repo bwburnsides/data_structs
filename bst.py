@@ -13,7 +13,7 @@ class Node:
     def __repr__(self) -> str:
         left = self.left_child.value if self.left_child is not None else None
         right = self.right_child.value if self.right_child is not None else None
-        return f"Val: {self.value}\nLeft: {left}\nRight: {right}"
+        return f"Node\nVal: {self.value}\nLeft: {left}\nRight: {right}"
 
     @property
     def child_count(self):
