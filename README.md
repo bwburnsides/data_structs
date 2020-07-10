@@ -1,5 +1,5 @@
 # data_structs
-Pythonic implementations of classical data structures
+Pythonic implementations of classical data structures.
 
 ## bst.py
 
@@ -9,7 +9,7 @@ implemented to provide a Python interface:
 
             >>> # initialize with any number of elements (even 0)
             >>> tree = BST(12, 10, 15, 13, 16, 19, 20)
-            >>> tree.insert(14)
+            >>> tree.insert(14)  # proper insertion after the creation
             >>> 13 in tree  # 'contains' syntax
             True
             >>> tree[13]  # 'subscript' syntax
@@ -17,6 +17,6 @@ implemented to provide a Python interface:
             Val: 13
             Left: None
             Right: 14
-            >>> len(tree)  # 'len' syntax for num of elements
+            >>> len(tree)  # 'len' syntax for num of elements in BST
             8
             >>> del tree[10] # 'delitem' syntax for node deletion
